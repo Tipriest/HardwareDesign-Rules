@@ -6,7 +6,7 @@
 
 关于设计经验和学习路线的总结
 
-[高速走线设计规则](./High Speed Design Rules/阻抗匹配来源，应用，介绍.md)
+[高速走线设计规则](./highSpeedDesignRules/阻抗匹配来源，应用，介绍.md)
 
 ### 现在存在的bug
 
