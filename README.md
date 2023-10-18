@@ -13,6 +13,12 @@
 
 ##### 调试经验
 
+[1.CAN总线问题调试分析](./designCasesAnalysis/can总线分析1.md)
+
+
+##### 计算工具
+
+[1.阻抗匹配计算软件](./highSpeedDesignRules/tools/SI9000各阻抗计算说明.pdf)
 
 ### 现在存在的bug
 
