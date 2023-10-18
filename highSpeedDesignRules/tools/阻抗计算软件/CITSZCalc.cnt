@@ -1,0 +1,44 @@
+:Base CITSZCalc.hlp>Main
+1 Introduction to Controlled Impedance PCBs
+2 Controlled impedance=Controlledimpedance@CITSZCalc.hlp>Main
+2 Impedance matching=Impedancematching@CITSZCalc.hlp>Main
+2 Calculation methods=Calculationmethods@CITSZCalc.hlp>Main
+1 Transmission Line Structures
+2 Microstrip and Stripline Transmission Lines=MicrostripandStriplineTransmissionLines@CITSZCalc.hlp>Main
+2 Single-ended Transmission Lines...
+3 Single-ended Transmission Lines=Single.endedTransmissionLines@CITSZCalc.hlp>Main
+4 Surface Microstrip=SurfaceMicrostrip@CITSZCalc.hlp>Proc
+4 Embedded Microstrip=EmbeddedMicrostrip@CITSZCalc.hlp>Proc
+4 Coated Microstrip=CoatedMicrostrip@CITSZCalc.hlp>Proc
+4 Symmetric Stripline=SymmetricStripline@CITSZCalc.hlp>Proc
+4 Offset Stripline=OffsetStripline@CITSZCalc.hlp>Proc
+2 Differential Transmission Lines...
+3 Differential Transmission Lines=DifferentialTransmissionLines@CITSZCalc.hlp>Main
+4 Edge-coupled Surface Microstrip=Edge.coupledSurfaceMicrostrip@CITSZCalc.hlp>Proc
+4 Edge-coupled Coated Microstrip=Edge.coupledCoatedMicrostrip@CITSZCalc.hlp>Proc
+4 Edge-coupled Embedded Microstrip=Edge.coupledEmbeddedMicrostrip@CITSZCalc.hlp>Proc
+4 Edge-coupled Symmetric Stripline=Edge.coupledSymmetricStripline@CITSZCalc.hlp>Proc
+4 Edge-coupled Offset Stripline=Edge.coupledOffsetStripline@CITSZCalc.hlp>Proc
+4 Broadside-coupled Stripline=Broadside.coupledStripline@CITSZCalc.hlp>Proc
+2 Coplanar Lines...
+3 Coplanar Lines=CoplanarLines@CITSZCalc.hlp>Main
+1 Using the Controlled Impedance Calculator
+2 Choosing a configuration=Choosingaconfiguration@CITSZCalc.hlp>Main
+2 Saving and recalling results=Savingandrecallingresults@CITSZCalc.hlp>Main
+2 Printing results=Printingresults@CITSZCalc.hlp>Main
+1 Registering and activating the software
+2 Software activation and registration=Softwareactivationandregistration@CITSZCalc.hlp>Main
+2 Single User Activation=SingleUserActivation@CITSZCalc.hlp>Main
+2 Network Activation...
+3 Network Activation=NetworkActivation@CITSZCalc.hlp>Main
+3 Network Client Installation=NetworkClientInstallation@CITSZCalc.hlp>Main
+2 System requirements...
+3 System requirements=Systemrequirements@CITSZCalc.hlp>Main
+3 Network Server Requirements=NetworkServerRequirements@CITSZCalc.hlp>Main
+3 Network Client Requirements=NetworkClientRequirements@CITSZCalc.hlp>Main
+3 Network Protocol Requirement=NetworkProtocolRequirement@CITSZCalc.hlp>Main
+3 Distributed COM (DCOM) Configuration...
+4 Distributed COM (DCOM) Configuration=DistributedCOM.DCOM.Configuration@CITSZCalc.hlp>Main
+4 Setting DCOM Properties for Network Server=SettingDCOMPropertiesforNetworkServer@CITSZCalc.hlp>Proc
+2 Terms used in this help file...
+3 Terms used in this help file=Termsusedinthishelpfile@CITSZCalc.hlp>Main
