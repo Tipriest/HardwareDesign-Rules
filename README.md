@@ -10,11 +10,9 @@
 
 [1. 高速走线设计规则](./highSpeedDesignRules/阻抗匹配来源，应用，介绍.md)
 
-
 ##### 调试经验
 
 [1.CAN总线问题调试分析](./designCasesAnalysis/can总线分析1.md)
-
 
 ##### 计算工具
 
@@ -29,3 +27,10 @@
 硬件组如何优雅地将东西给传上来，一套方法
 
 从生成ssh公钥的网站开始，一直到gitee和github之间的相互同步
+
+
+sponsor: may be you think this is useful, so offer me a cup of coffee please~
+
+please note me who you are, thanks a lot~
+
+支付宝: 15765490901
