@@ -28,8 +28,9 @@
 
 从生成ssh公钥的网站开始，一直到gitee和github之间的相互同步
 
+### sponsor
 
-sponsor: may be you think this is useful, so offer me a cup of coffee please~
+may be you think this is useful, so offer me a cup of coffee please~
 
 please note me who you are, thanks a lot~
 
