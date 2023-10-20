@@ -1,0 +1,132 @@
+						CITS25 Network Activation (V2.010)
+						==================================
+
+
+Network Activation Scheme
+-------------------------
+
+To enable network operation the CITS25 must first be activated on one computer with a 
+special code.  This machine is called the Network Server.
+
+Any other computer running the CITS25 on the same network can then be activated by 
+connecting it to the Network Server. These machines are called Network Clients.
+
+The activation code ties the Network Server to one specific computer but there is no 
+limit to the number of Network Clients.
+
+The CITS25 program on a Network Client uses DCOM to launch another instance of the CITS25 
+on a remote computer. It then communicates with this over the network to verify that it 
+has been activated as a Network Server. If the remote computer is a valid Network Server 
+then the Network Client is activated too.
+
+The above procedure happens when the client is first activated and, once successfully 
+activated, every time the CITS25 program on the Network Client is run. Therefore the 
+Network Server nust remain activated and accessible on the network in order for its 
+clients to function.
+
+
+Network Server Requirements
+---------------------------
+
+The Network Server computer must be running Windows NT, version 4.0 or higher. 
+This is because NT 4.0 includes native support for DCOM and allows remote launching of 
+applications.
+
+It is critical that DCOM is correctly configured on the Network Server. Once this is done 
+activating remote clients should be quite straight-forward.  See Distributed COM 
+Configuration below for details of how DCOM should be configured.
+
+
+Network Client Requirements
+---------------------------
+
+Network Clients may run Windows 95/98 or NT.  DCOM support may not be present on all 
+Win95/98 machines.  This will be evident when attempting to activate the software as 
+the Network Activation buttons on the "Help/Software Activation..." dialog will be 
+disabled (grayed out) and a diagnostic message will be displayed at the bottom of the 
+dialog.
+
+DCOM support may be provided by either installing Internet Explorer 4.0 or by
+running "DCOM95.exe"/"DCOM98.exe" (available for download from the Microsoft website).
+
+
+Network Protocol Requirement
+----------------------------
+
+TCP/IP must be installed on client and server and DNS/WINS Name resolution set up 
+correctly on the network.
+
+Test this by pinging the server by name from the client.
+If this doesnt work try pinging by IP address.
+If neither of the above works TCP/IP is not setup properly on the network.
+If it works by using an IP address but not by computer name then DNS/WINS Name resolution 
+is not set up correctly.
+
+DCOM must be enabled on both client and server machines.  This is the default but can be 
+changed using DCOMCNFG (see below). If DCOM is not enabled then the Network Activation 
+buttons on the "Help/Software Activation..." dialog will be disabled (grayed out) and a 
+message displayed below them to this effect.
+
+
+Distributed COM (DCOM) Configuration
+------------------------------------
+
+It is necessary to modify the DCOM configuration on the Network Server to enable clients 
+to remotely launch the CITS25 on the server.  There is a utility called DCOMCNFG.EXE which 
+may be run from the "Start Menu\Run..."  dialog to adjust these settings.  To use this on NT 
+you need to be logged in as an administator.
+
+DCOMCNFG allows you to change either system wide parameters or properties for a specific 
+application. It is suggested that the default parameters be left unaltered and that only 
+CITS25 specific properties should be adjusted to facilitate network operation.
+
+Note that in order for DCOMCNFG to list the CITS25 in its applications list it needs the 
+CITS25 to have been run at least once on that machine.  
+
+Select CITS25 from the DCOMCNFG Applications list and then click the "Properties..." button 
+to adjust parameters specific to the CITS25.
+
+Suggested  CITS25 specific DCOMCNFG settings for Network Server:-
+
+General		:-		Authentication Level: Default
+
+Location	:-		Only "Run application on this computer" checked
+
+Security	:-		Use default access permissions
+					Use custom launch permissions:  Everyone - Allow Launch
+					Use default configuration permissions
+
+Identity	:-		"This User" 
+							User: Cits25User
+							Password: ****
+							Confirm: Password ****	
+
+Endpoints	:-		Defaults system protocols
+
+
+The above uses the Identity set to "This User" where Cits25User is a valid user name for an 
+NT account set up with the User Manager. Cits25User can be an ordinary user with the default 
+user rights.
+
+This setup is recommended becauser it will allow remote computers to launch the CITS25 on 
+this machine even when there is nobody currently logged on. Alternatively Identity can be 
+set to "Interactive User".
+
+
+
+Installing/Running on Network Client
+------------------------------------
+If the software is installed on the client from the install disks or from the self-extracting 
+executable downloaded from the web then all files necessary for correct operation should be 
+installed on the client.
+
+The CITS25 application may also be run on a client by using a shortcut to the CITS25.exe file 
+on the server PC. This may not work if certain operating system files are not present on the 
+client. The application will report any needed files which are not present when it is first 
+run. To fix this either install the software on these clients or copy the missing files from 
+another computer to the windows system directory of the client.
+
+The same thing may happen if the CITS25 executable is copied to a computer rather than being 
+installed.
+
+
