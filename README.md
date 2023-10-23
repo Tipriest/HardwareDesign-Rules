@@ -8,7 +8,7 @@
 
 ##### 设计经验
 
-[1. 高速走线设计规则](./highSpeedDesignRules/阻抗匹配来源，应用，介绍.md)
+[1. 高速走线设计规则-阻抗匹配](./designRules/highSpeedSignal/阻抗匹配.md)
 
 ##### 调试经验
 
@@ -16,7 +16,7 @@
 
 ##### 计算工具
 
-[1.阻抗匹配计算软件](./highSpeedDesignRules/tools/SI9000各阻抗计算说明.pdf)
+[1.阻抗匹配计算软件](./designRules/highSpeedSignal/tools/工具使用教程视频汇总.md)
 
 ### 现在存在的bug
 
