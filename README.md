@@ -6,6 +6,12 @@
 
 关于设计经验和学习路线的总结
 
+##### 设计资料
+
+[1.SCH库,PCB库](./designResources/README.md)
+
+[2.器件选型及思考](./designResources/componentsSelect/磁珠.md)
+
 ##### 设计经验
 
 [1. 高速走线设计规则-阻抗匹配](./designRules/highSpeedSignal/阻抗匹配.md)
